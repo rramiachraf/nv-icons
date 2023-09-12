@@ -1,0 +1,26 @@
+{
+  "name": "@navalon/icons",
+  "version": "0.0.1",
+  "description": "Navalon icons pack",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 && prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitea.navalon.ai/Navalon/icons"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "prettier": "^3.0.3"
+  }
+}
