@@ -2,7 +2,7 @@ import React from 'react'
 import type { FC } from 'react'
 import type { IconProps } from '../index'
 
-export const Block: FC<IconProps> = ({
+export const Percentage: FC<IconProps> = ({
   color = '#282828',
   width = 32,
   height = 32
